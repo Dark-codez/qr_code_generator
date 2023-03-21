@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Programming can be fun</title>
+		<link rel = 'stylesheet' href = 'style.css' />
+		<meta name = 'viewport' content = 'width=device-width'/>
+	</head>
+	<body>
+		<h2>Qr Code Generator</h2>
+		<div class = "qr_code_container">
+			<section class = "left_side">
+				<form>
+					<input 
+						type = "text" 
+						name = "qr_code_text"
+						placeholder = "Enter Your text"
+					/>
+					<button>Generate</button>
+				</form>
+			</section>
+			<section class = "right_side">
+				<canvas id="canvas"></canvas>
+				<button class = "download_btn">Download</button>
+			</section>
+		</div>
+	</body>
+	<script defer = '' src = "./dist/bundle.js"></script>
+</html>	

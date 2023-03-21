@@ -1,0 +1,20 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.1"
+  }
+}
